@@ -10,5 +10,5 @@ pack build rails-unicorn-app --buildpack gcr.io/paketo-buildpacks/nodejs --build
 ```
 2) `docker run` the app.
 ```
-docker run -e PORT=8080 -p 8080:8080 -it rails-puma-app
+docker run -e PORT=8080 -p 8080:8080 -it rails-unicorn-app
 ```
