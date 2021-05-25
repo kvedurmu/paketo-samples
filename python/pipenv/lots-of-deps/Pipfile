@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+sqlalchemy = "*"
+django = "*"
+anonfile = "*"
+urllib3 = "*"
+numpy = "*"
+boto3 = "*"
+botocore = "*"
+six = "*"
+certifi = "*"
+s3transfer = "*"
+python-dateutil = "*"
+awscli = "*"
+rsa = "*"
+pyasn1 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
