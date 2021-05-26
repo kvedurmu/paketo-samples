@@ -1,0 +1,1 @@
+{"build": "pyhd3eb1b0_0", "build_number": 0, "depends": ["python >=3.6"], "license": "MIT", "license_family": "MIT", "name": "zipp", "noarch": "python", "subdir": "noarch", "timestamp": 1615904216969, "version": "3.4.1", "size": 15794, "md5": "0c647479e59d235ee8bfaca0689b4eba", "sha256": "5ab34b3c43e19bf67c7864bf226c103dc471cafbf356abd50bab3f6925a145c5"}

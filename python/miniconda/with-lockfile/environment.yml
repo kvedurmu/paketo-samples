@@ -1,0 +1,6 @@
+name: kashyap-arjun-test
+channels:
+  - defaults
+dependencies:
+  - flask
+prefix: /opt/miniconda3/envs/kashyap-arjun-test

@@ -1,0 +1,3 @@
+name: conda-vendored-app
+dependencies:
+  - flask

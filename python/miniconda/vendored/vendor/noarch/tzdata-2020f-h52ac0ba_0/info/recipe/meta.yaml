@@ -1,0 +1,71 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/tzdata-2020f-on-linux_64, last modified Tue Jan 19 19:59:47 2021
+# ------------------------------------------------
+
+package:
+  name: tzdata
+  version: 2020f
+source:
+  - sha256: 121131918c3ae6dc5d40f0eb87563a2be920b71a76e2392c09519a5e4a666881
+    url: https://data.iana.org/time-zones/releases/tzdata2020f.tar.gz
+  - sha256: cfeeea2a7745164f64bd9f6d76e47916f4ac820c4434493674adbbd4324329c5
+    url: https://data.iana.org/time-zones/releases/tzcode2020f.tar.gz
+build:
+  ignore_run_exports:
+    - libgcc-ng
+  noarch: generic
+  number: '0'
+  string: h52ac0ba_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - binutils_impl_linux-64 2.33.1 he6710b0_7
+    - binutils_linux-64 2.33.1 h9595d00_15
+    - gcc_impl_linux-64 7.3.0 habb00fd_1
+    - gcc_linux-64 7.3.0 h553295d_15
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - make 4.2.1 h1bed415_1
+  host: []
+  run: []
+test:
+  commands:
+    - test -f "${PREFIX}/share/zoneinfo/leapseconds"
+    - test -f "${PREFIX}/share/zoneinfo/iso3166.tab"
+    - test -f "${PREFIX}/share/zoneinfo/zone1970.tab"
+    - test -f "${PREFIX}/share/zoneinfo/zone.tab"
+    - test -f "${PREFIX}/share/zoneinfo/tzdata.zi"
+    - "dirs=\"$(\n  find \"${PREFIX}\" -mindepth 1 -maxdepth 2 \\\n  \\! -path \"\
+      ${PREFIX}/share\" \\! -path \"${PREFIX}/conda-meta*\"\n)\"\ntest \"${dirs}\"\
+      \ = \"${PREFIX}/share/zoneinfo\"\n"
+    - "heads=\"$(\n  find \"${PREFIX}/share/zoneinfo\" -type f \\\n    \\! -name \\\
+      *.zi \\! -name \\*.tab \\! -name leapseconds \\\n    -exec head -c4 {} \\; -printf\
+      \ \\\\n \\\n    | uniq\n)\"\ntest \"${heads}\" = TZif\n"
+about:
+  description: 'The Time Zone Database (called tz, tzdb or zoneinfo) contains code
+    and
+
+    data that represent the history of local time for many representative
+
+    locations around the globe.  It is updated periodically to reflect
+
+    changes made by political bodies to time zone boundaries, UTC offsets,
+
+    and daylight-saving rules.
+
+    '
+  dev_url: https://github.com/eggert/tz
+  doc_url: https://data.iana.org/time-zones/tz-link.html
+  home: https://www.iana.org/time-zones
+  license: LicenseRef-Public-Domain
+  license_file: LICENSE
+  summary: The Time Zone Database (called tz, tzdb or zoneinfo)
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - mbargull
+    - ocefpaf
+    - pganssle

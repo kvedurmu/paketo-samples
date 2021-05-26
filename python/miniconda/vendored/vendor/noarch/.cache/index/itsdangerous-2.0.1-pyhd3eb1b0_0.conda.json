@@ -1,0 +1,1 @@
+{"build": "pyhd3eb1b0_0", "build_number": 0, "depends": ["python >=3.6"], "license": "BSD-3-Clause", "license_family": "BSD", "name": "itsdangerous", "noarch": "python", "subdir": "noarch", "timestamp": 1621432604311, "version": "2.0.1", "size": 18562, "md5": "c7850bc75cded6e6c0e17733aa6d0436", "sha256": "db0fa9b8a28a1702bfeea536e3466793e448ababa6b0b10eb4950395aa91c9df"}

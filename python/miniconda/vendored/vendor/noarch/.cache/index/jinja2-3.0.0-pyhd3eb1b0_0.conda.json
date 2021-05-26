@@ -1,0 +1,1 @@
+{"build": "pyhd3eb1b0_0", "build_number": 0, "depends": ["markupsafe >=2.0", "python >=3.6", "setuptools"], "license": "BSD-3-Clause", "name": "jinja2", "noarch": "python", "subdir": "noarch", "timestamp": 1621238396297, "version": "3.0.0", "size": 108880, "md5": "ad74a3cdc7aaa5d94b43f9530381d94d", "sha256": "e90e720d26492591c80675f77fd76db1ce54f5e83cdae0381eb5a97542d65776"}

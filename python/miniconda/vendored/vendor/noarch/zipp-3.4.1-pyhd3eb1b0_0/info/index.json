@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "zipp",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1615904216969,
+  "version": "3.4.1"
+}

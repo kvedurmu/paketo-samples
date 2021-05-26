@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "depends": [
+    "markupsafe >=2.0",
+    "python >=3.6",
+    "setuptools"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "jinja2",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1621238396297,
+  "version": "3.0.0"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "zipp-3.4.1-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "aea9b949322b42ee1d1774093639917f",
+  "legacy_bz2_size": 15229,
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "0c647479e59d235ee8bfaca0689b4eba",
+  "name": "zipp",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "5ab34b3c43e19bf67c7864bf226c103dc471cafbf356abd50bab3f6925a145c5",
+  "size": 15794,
+  "subdir": "noarch",
+  "timestamp": 1615904216969,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/zipp-3.4.1-pyhd3eb1b0_0.conda",
+  "version": "3.4.1"
+}

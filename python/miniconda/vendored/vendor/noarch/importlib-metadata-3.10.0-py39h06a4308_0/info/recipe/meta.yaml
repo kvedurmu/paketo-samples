@@ -1,0 +1,55 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/importlib-metadata-3.10.0-python_3.9-on-linux_64, last modified Thu Apr  8 10:17:39 2021
+# ------------------------------------------------
+
+package:
+  name: importlib-metadata
+  version: 3.10.0
+source:
+  sha256: c9db46394197244adf2f0b08ec5bc3cf16757e9590b02af1fca085c16c0d600a
+  url: https://pypi.io/packages/source/i/importlib_metadata/importlib_metadata-3.10.0.tar.gz
+build:
+  number: '0'
+  string: py39h06a4308_0
+requirements:
+  build: []
+  host:
+    - _libgcc_mutex 0.1 main
+    - ca-certificates 2021.1.19 h06a4308_1
+    - certifi 2020.12.5 py39h06a4308_0
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1k h27cfd23_0
+    - pip 21.0.1 py39h06a4308_0
+    - python 3.9.2 hdb3f193_0
+    - readline 8.1 h27cfd23_0
+    - setuptools 52.0.0 py39h06a4308_0
+    - setuptools-scm 6.0.1 pyhd3eb1b0_1
+    - setuptools_scm 6.0.1 hd3eb1b0_1
+    - sqlite 3.35.4 hdfb4753_0
+    - tk 8.6.10 hbc83047_0
+    - toml 0.10.2 pyhd3eb1b0_0
+    - tzdata 2020f h52ac0ba_0
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - python >=3.9,<3.10.0a0
+    - zipp >=0.5
+about:
+  home: https://github.com/python/importlib_metadata
+  license: Apache-2.0
+  license_family: APACHE
+  license_file: LICENSE
+  summary: A library to access the metadata for a Python package
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - marcelotrevisani
+    - nehaljwani
+    - nicoddemus

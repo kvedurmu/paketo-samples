@@ -1,0 +1,1 @@
+{"build": "py39h06a4308_0", "build_number": 0, "depends": ["certifi >=2016.9.26", "python >=3.9,<3.10.0a0"], "license": "MIT", "license_family": "MIT", "name": "setuptools", "subdir": "linux-64", "timestamp": 1611605161621, "version": "52.0.0", "size": 741670, "md5": "c235a32d503ee9f6dd1b84141632f9e8", "sha256": "0132896a89b2ac02486aca2ad981367567646282397b06015d169667f84b743f"}

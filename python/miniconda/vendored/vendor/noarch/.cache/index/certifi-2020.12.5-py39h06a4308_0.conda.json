@@ -1,0 +1,1 @@
+{"build": "py39h06a4308_0", "build_number": 0, "depends": ["python >=3.9,<3.10.0a0"], "license": "ISC", "name": "certifi", "subdir": "linux-64", "timestamp": 1607365763827, "version": "2020.12.5", "size": 143322, "md5": "a0f4bb2d94e03aec1788fcc4c3e9a199", "sha256": "543d789a55e37556385f0c7c7529911e8ba5653e457571d561b047be20886864"}

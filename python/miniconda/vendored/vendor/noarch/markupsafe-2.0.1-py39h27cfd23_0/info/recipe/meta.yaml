@@ -1,0 +1,78 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Thu May 20 15:10:32 2021
+# ------------------------------------------------
+
+package:
+  name: markupsafe
+  version: 2.0.1
+source:
+  sha256: 594c67807fb16238b30c44bdf74f36c02cdf22d1c8cda91ef8a0ed8dabf5620a
+  url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-2.0.1.tar.gz
+build:
+  number: '0'
+  script: /tmp/build/80754af9/markupsafe_1621523467000/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+    -m pip install . --no-deps -vv
+  string: py39h27cfd23_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - binutils_impl_linux-64 2.33.1 he6710b0_7
+    - binutils_linux-64 2.33.1 h9595d00_15
+    - gcc_impl_linux-64 7.3.0 habb00fd_1
+    - gcc_linux-64 7.3.0 h553295d_15
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+  host:
+    - _libgcc_mutex 0.1 main
+    - ca-certificates 2021.4.13 h06a4308_1
+    - certifi 2020.12.5 py39h06a4308_0
+    - ld_impl_linux-64 2.33.1 h53a641e_7
+    - libffi 3.3 he6710b0_2
+    - libgcc-ng 9.1.0 hdf63c60_0
+    - libstdcxx-ng 9.1.0 hdf63c60_0
+    - ncurses 6.2 he6710b0_1
+    - openssl 1.1.1k h27cfd23_0
+    - pip 21.0.1 py39h06a4308_0
+    - python 3.9.5 hdb3f193_3
+    - readline 8.1 h27cfd23_0
+    - setuptools 52.0.0 py39h06a4308_0
+    - sqlite 3.35.4 hdfb4753_0
+    - tk 8.6.10 hbc83047_0
+    - tzdata 2020f h52ac0ba_0
+    - wheel 0.36.2 pyhd3eb1b0_0
+    - xz 5.2.5 h7b6447c_0
+    - zlib 1.2.11 h7b6447c_3
+  run:
+    - libgcc-ng >=7.3.0
+    - python >=3.9,<3.10.0a0
+test:
+  imports:
+    - markupsafe
+about:
+  description: 'MarkupSafe is a library for Python that implements a unicode string
+    that
+
+    is aware of HTML escaping rules and can be used to implement automatic
+
+    string escaping. It is used by Jinja 2, the Mako templating engine, the
+
+    Pylons web framework and many more.
+
+    '
+  dev_url: https://github.com/pallets/markupsafe
+  doc_source_url: https://github.com/pallets/markupsafe/blob/master/README.rst
+  doc_url: https://pypi.python.org/pypi/MarkupSafe
+  home: https://www.palletsprojects.com/p/markupsafe
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.rst
+  summary: A Python module that implements the jinja2.Markup string
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ocefpaf
+    - pelson
+    - scopatz
